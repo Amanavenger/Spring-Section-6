@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: "configServer"
+  profiles:
+    active: git
+  #active: native
+  cloud:
+    config:
+      server:
+        # native:
+        #  search-locations: "file:///Users/ajaykumar/Downloads/Config"
+        #search-locations: "classpath:/config"
+        git:
+          uri: "https://github.com/Amanavenger/Bank-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+encrypt:
+  key: "2398ASG123AS80VH54"
+
+
+server:
+  port: 8071
+

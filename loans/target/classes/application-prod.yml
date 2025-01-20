@@ -1,0 +1,11 @@
+build:
+  version: 5.1
+
+accounts:
+  message: "Production Welcome To Bank account related to local API"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@doe.com"
+  onCallSupport:
+    1010101010
+    11100101010

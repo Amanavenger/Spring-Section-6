@@ -1,0 +1,8 @@
+accounts:
+  message: "Welcome To Bank account related to local API"
+  contactDetails:
+    name: "Production - Developer"
+    email: "prod@dev.com"
+  onCallSupport:
+   555-770-9896
+   555-890-9123

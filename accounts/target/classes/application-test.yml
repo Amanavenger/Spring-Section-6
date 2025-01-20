@@ -1,0 +1,8 @@
+accounts:
+  message: "Welcome To Bank account related to local API"
+  contactDetails:
+    name: "Test "
+    email: "test@env.com"
+  onCallSupport:
+    1010101010
+    11100101010

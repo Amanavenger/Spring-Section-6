@@ -1,0 +1,11 @@
+build:
+  version: 2.1
+
+accounts:
+  message: "Production Welcome To Bank account related to local API / Loans Test"
+  contactDetails:
+    name: "John Doe - Test"
+    email: "john@doe.com"
+  onCallSupport:
+    1010101010
+    11100101010

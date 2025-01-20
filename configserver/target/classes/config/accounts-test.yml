@@ -1,0 +1,11 @@
+build:
+  version: 2.1
+
+accounts:
+  message: "Welcome To Bank account related to local API / Accounts Test"
+  contactDetails:
+    name: "Test "
+    email: "test@env.com"
+  onCallSupport:
+    1010101010
+    11100101010
